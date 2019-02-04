@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on the Search Button element clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="POC_Suite" duration-ms="9137" started-at="2019-02-03T16:33:35Z" finished-at="2019-02-03T16:33:44Z">
+    <groups>
+    </groups>
+    <test name="POC_Test" duration-ms="9137" started-at="2019-02-03T16:33:35Z" finished-at="2019-02-03T16:33:44Z">
+      <class name="com.org.TestScripts.LangingPageVerification">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.TestScripts.LangingPageVerification@cb5822]" name="setUp" is-config="true" duration-ms="259" started-at="2019-02-03T11:33:35Z" finished-at="2019-02-03T11:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="langingPageVerification(java.lang.String, java.lang.String)[pri:0, instance:com.org.TestScripts.LangingPageVerification@cb5822]" name="langingPageVerification" duration-ms="8425" started-at="2019-02-03T11:33:35Z" finished-at="2019-02-03T11:33:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[University]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the Search Button element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- langingPageVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.org.TestScripts.LangingPageVerification@cb5822]" name="getResult" is-config="true" duration-ms="697" started-at="2019-02-03T11:33:43Z" finished-at="2019-02-03T11:33:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=langingPageVerification status=SUCCESS method=LangingPageVerification.langingPageVerification(java.lang.String, java.lang.String)[pri:0, instance:com.org.TestScripts.LangingPageVerification@cb5822] output=Clicking on the Search Button element clicked]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.TestScripts.LangingPageVerification@cb5822]" name="tearDown" is-config="true" duration-ms="4896" started-at="2019-02-03T11:33:44Z" finished-at="2019-02-03T11:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.TestScripts.LangingPageVerification -->
+    </test> <!-- POC_Test -->
+  </suite> <!-- POC_Suite -->
+</testng-results>
